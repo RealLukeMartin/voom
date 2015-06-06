@@ -18,4 +18,5 @@ fi
 if [[ ! -L /usr/local/bin/voom ]]; then
     echo 'installing voom...'
     sudo ln -s ~/.voom/voom /usr/local/bin/voom
+    echo 'Done.'
 fi

@@ -2,4 +2,4 @@
 
 set -e
 
-echo 'hi'
+echo 'logic goes here'
