@@ -10,7 +10,8 @@ fi
 
 # Clone voom
 if [[ ! -d ~/.voom ]]; then
-    git clone https://github.com/RealLukeMartin/voom.git ~/.voom
+    git clone https://github.com/RealLukeMartin/voom.git ~/.voom --quiet
+    sudo chmod 775 ~/.voom/voom
 fi
 
 # Install voom
